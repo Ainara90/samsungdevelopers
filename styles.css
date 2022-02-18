@@ -1,0 +1,55 @@
+h1 { 
+    color: blue; 
+    text-shadow: yellow; 
+}
+
+fieldset { 
+    background-color: aqua; 
+}
+
+legend { 
+    background-color: red; 
+    color: white; 
+}
+
+input { 
+    background-color: yellow; 
+}
+
+.fieldset-base { 
+    display: flex; 
+    flex-direction: column; 
+    margin-top: 20px
+
+}
+
+.container1 input{ 
+    margin-left:20px;
+    }
+
+.container1 input:first-child{
+    margin-left:0px;
+        }
+
+.container2 {
+    margin-top: 20px; 
+    display: flex;
+    flex-direction: row;
+}
+.container3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.container4 {
+    margin-top: 20px;
+}
+
+.container4 > label > input {
+    background-color: white;
+
+}
+
+
+
+.pink-button { background-color: palevioletred; border-radius: 5px; width: 85px;}
